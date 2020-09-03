@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="get_set_nested_dict",
-    version="0.0.3",
+    version="0.1.0",
     author="Hoang Yell",
     author_email="ngohoang.yell@gmail.com",
     description="Get or Set a nested value of nested dict by path",

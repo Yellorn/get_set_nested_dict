@@ -49,7 +49,7 @@ https://pypi.org/project/get_set_nested_dict/
 `after:`
 
     from get_set_nested_dict import get_set_nested_dict
-    sub_sub_value_1 = get_set_nested_dict(nested_dict, "key[0].sub_key.sub_sub_key_1")
+    nested_dict, sub_sub_value_1 = get_set_nested_dict(nested_dict, "key[0].sub_key.sub_sub_key_1")
         
 #####Example:
 
