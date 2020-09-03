@@ -72,7 +72,7 @@ https://pypi.org/project/get_set_nested_dict/
 
 `after:`
 
-    from get_nested_value_by_path import get_nested_value_by_path
+    from get_set_nested_dict import get_set_nested_dict
     path = "club[0].manager.last_name"
     nested_dict, manager_last_name = get_set_nested_dict(nested_dict, path, setter_value='Pulga')
 
