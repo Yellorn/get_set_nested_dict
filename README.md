@@ -23,12 +23,12 @@ Get or Set a nested value of nested dict by path
         ({'club': [{'manager': {'last_name': 'Pulga', 'first_name': 'Messi'}}]}, 'Lionel')
     """
 
-#####Installation:
+##### Installation:
 https://pypi.org/project/get_set_nested_dict/
 
     pip install get_set_nested_dict
 
-#####Usage:
+##### Usage:
 
     nested_dict = {
       "key": [
@@ -51,7 +51,7 @@ https://pypi.org/project/get_set_nested_dict/
     from get_set_nested_dict import get_set_nested_dict
     nested_dict, sub_sub_value_1 = get_set_nested_dict(nested_dict, "key[0].sub_key.sub_sub_key_1")
         
-#####Example:
+##### Example:
 
     nested_dict = {
       "club": [
